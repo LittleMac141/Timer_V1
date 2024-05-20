@@ -1,0 +1,52 @@
+
+
+body {
+    /*border: 1px red solid;*/
+    height: 50vh;
+    cursor: default;
+    
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    /*border: 1px yellow solid;*/
+    flex-direction: column;
+}
+
+#display {
+    font-family: monospace;
+    font-size: 4rem;
+}
+
+#heading {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#startB {
+    background-color: rgb(73, 205, 117);
+    border: 2px rgb(146, 117, 117) solid;
+    border-radius: 50px;
+}
+
+#stopB {
+    background-color: rgb(211, 27, 27);
+    border: 2px rgb(146, 117, 117) solid;
+    border-radius: 25px;
+}
+
+#resetB {
+    background-color: rgb(216, 220, 91);
+    border: 2px rgb(146, 117, 117) solid;
+    border-radius: 25px;
+}
