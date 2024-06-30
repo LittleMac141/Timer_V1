@@ -1,10 +1,14 @@
-
+html {
+    
+}
 
 body {
     /*border: 1px red solid;*/
     height: 50vh;
     cursor: default;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #card {
@@ -12,8 +16,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 30vh;
-    width: 100%;
-    /*border: 1px yellow solid;*/
+    width: 50%;
+    border: 5px black solid;
+    border-radius: 50px;
     flex-direction: column;
 }
 
